@@ -17,7 +17,7 @@ class Circle{
     return newRaduis
   }
   set raduisFromCircumference(newRaduis){
-    newRaduis = (Circumference/Math.PI)/2 
+    newRaduis = (Circumference/Math.PI)/2
     return newRaduis
   }
   set raduisFromArea(newRaduis){
