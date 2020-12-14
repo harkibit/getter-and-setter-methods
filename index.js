@@ -4,7 +4,7 @@ class Circle{
     this.radius = radius
   }
   get calculate(){
-    return diameter = this.radius * 2
+    diameter = this.radius * 2
     Circumference = diameter * Math.PI
     Area = Math.PI * this.radius * 2
   }
