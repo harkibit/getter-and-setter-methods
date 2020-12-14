@@ -4,14 +4,13 @@ class Circle{
     this.radius = radius
   }
   get diameter(){
-    this.diameter = this.radius * 2
-    return diameter
+    return this.radius * 2
   }
   get Circumference(){
-    return Circumference = diameter * Math.PI
+    return diameter * Math.PI
   }
   get Area(){
-    return Area = Math.PI * this.radius * 2
+    return Math.PI * this.radius * 2
   }
   set raduisFromDiameter(newRaduis){
     newRaduis = diameter / 2
