@@ -13,8 +13,7 @@ class Circle{
     return Math.PI * this.radius * this.radius
   }
   set raduisFromDiameter(newRaduis){
-    newRaduis = diameter / 2
-    return newRaduis
+    return diameter / 2
   }
   set raduisFromCircumference(newRaduis){
     newRaduis = (Circumference/Math.PI)/2
