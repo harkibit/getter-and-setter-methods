@@ -12,13 +12,13 @@ class Circle{
   get area(){
     return Math.PI * this.radius * this.radius
   }
-  set raduisFromDiameter(diameter){
+  set diameter(diameter){
     this.radius = diameter / 2
   }
-  set raduisFromCircumference(circumference){
+  set circumference(circumference){
     this.radius = circumference/(Math.PI * 2)
   }
-  set raduisFromArea(area){
+  set area(area){
     this.radius = area/(2*Math.PI)
   }
 }
