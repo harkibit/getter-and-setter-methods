@@ -8,5 +8,8 @@ class Circle{
     Circumference = diameter * Math.PI
     Area = Math.PI * this.radius * 2
   }
-  set
+  set raduis(newRaduis){
+    newRaduis = diameter / 2 || (Circumference/Math.PI)/2 || Area/(2*Math.PI) 
+    
+  }
 }
