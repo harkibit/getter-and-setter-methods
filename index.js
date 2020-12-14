@@ -9,7 +9,6 @@ class Circle{
     Area = Math.PI * this.radius * 2
   }
   set raduis(newRaduis){
-    newRaduis = diameter / 2 || (Circumference/Math.PI)/2 || Area/(2*Math.PI) 
-    
+    newRaduis = diameter / 2 || (Circumference/Math.PI)/2 || Area/(2*Math.PI)
   }
 }
