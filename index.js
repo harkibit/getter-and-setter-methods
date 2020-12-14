@@ -6,10 +6,10 @@ class Circle{
   get diameter(){
     return this.radius * 2
   }
-  get Circumference(){
+  get circumference(){
     return diameter * Math.PI
   }
-  get Area(){
+  get area(){
     return Math.PI * this.radius * 2
   }
   set raduisFromDiameter(newRaduis){
